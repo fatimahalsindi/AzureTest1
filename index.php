@@ -6,22 +6,23 @@
 <body>
 <p>
     <?php
-    for ($i = 1; $i < 30; $i++)
+
+    for ($b = 1; $b < 30; $b++)
     {
         $y = 0; //I'm using this as a marker to tell that at least one thing is being made
-        echo "<p>On day " . $i . " the following products are available: ";
+        echo "<p>On day " . $b. " the following products are available: ";
 
-        if ($i % 2 i= 0)
+        if ($b % 2 b= 0)
         {
             echo "Sausage Rolls ";
             $y = 1;
         }
-        if ($i % 3 i= 0)
+        if ($b % 3 b= 0)
         {
             echo "Mugs ";
             $y = 1;
         }
-        if ($i % 4 i= 0)
+        if ($b % 4 b= 0)
         {
             echo "Specs";
             $y = 1;
@@ -32,7 +33,6 @@
         }
         echo "</p>";
     }
-
 
 
 
