@@ -6,7 +6,7 @@
 <body>
 <p>
     <?php
-   /* $myArray = array("specs", "mugs", "sausage rolls");
+   $myArray = array("specs", "mugs", "sausage rolls");
 
     print $myArray;
 
@@ -16,11 +16,9 @@
 
     unset($array [2]); // removes the array in position 2
 
-    print $myArray;*/
+    print $myArray;
 
-    $myArray = array("specs", "mugs", "sausage rolls");
 
-    print $myArray[1];
 
     ?>
 </p>
