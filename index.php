@@ -6,9 +6,17 @@
 <body>
 <p>
     <?php
-    $myArray = array("do", "re", "mi"); // declares the array
+    $myArray = array("specs", "mugs", "sausage rolls");
 
-    echo$myArray[0]
+    print $myArray;
+
+    $myArray [1] = "hugs"; // modifies position 1 (re)
+
+    print $myArray;
+
+    unset($array [2]); // removes the array in position 2
+
+    print $myArray;
 
 
 
