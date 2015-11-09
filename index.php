@@ -6,18 +6,9 @@
 <body>
 <p>
     <?php
-   /* $hernamen= "emilly";
+    $hernamen= "emilly";
 
-    strpos($hername, "e");   // 0*/
-
-    $myname = "David";
-    $uppercase = strtoupper($myname);
-    print$uppercase;
-    // prints "DAVID"
-
-    $lowercase = strtolower($uppercase);
-    print$lowercase;
-    // prints "david"
+    strpos("$hername", "e");   // 0
 
 
     ?>
