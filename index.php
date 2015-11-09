@@ -8,16 +8,18 @@
     <?php
    $myArray = array("specs", "mugs", "sausage rolls");
 
-    printmyArray();
+    printmyArray($myArray);
 
     $myArray [1] = "hugs"; // modifies position 1 (re)
 
-    print $myArray;
+    printmyArray($myArray);
 
     unset($array [2]); // removes the array in position 2
 
-    print $myArray;
-    function printmyArray()
+    printmyArray($myArray);
+
+
+    function printmyArray($myArray)
     {
         foreach($myArray as $x) {
             echo "<p>" . $x . "</p>";
