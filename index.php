@@ -6,14 +6,21 @@
 <body>
 <p>
     <?php
-    $name = "Edgar";
+    $myage = 28;
 
-    if ($name == "Simon") {
-        print"I know you!";
+    if ($myage >= 21) {
+        echo "You can buy specs, mugs, and sausage rolls";
+    }
+    elseif ($myage >= 18) {
+        echo "You can buy specs and mugs";
+    }
+    elseif ($myage >= 16) {
+        echo "You can buy specs";
     }
     else {
-        print"Who are you?";
+        echo "You can't buy anything";
     }
+
 
     ?>
 </p>
