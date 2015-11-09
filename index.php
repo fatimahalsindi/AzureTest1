@@ -6,15 +6,11 @@
 <body>
 <p>
     <?php
-    $myname = "David";
-    $uppercase = strtoupper($myname);
-    print$uppercase;
-    // prints "DAVID"
 
-    $lowercase = strtolower($uppercase);
-    print$lowercase;
-    // prints "david"
-
+    strpos("emily", "e");   // 0
+    strpos("emily", "i");   // 2
+    strpos("emily", "ily"); // 2
+    strpos("emily", "zxc"); // false
 
     ?>
 </p>
