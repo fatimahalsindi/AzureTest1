@@ -12,7 +12,7 @@
 
     $myArray [1] = "hugs"; // modifies position 1 (re)
 
-    print $myArray;
+    print $myArray(1);
 
     unset($array [2]); // removes the array in position 2
 
