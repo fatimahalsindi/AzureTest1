@@ -6,9 +6,8 @@
 <body>
 <p>
     <?php
-    $hernamen= "emilly";
-
-    strpos("$hername", "e");   // 0
+    $round = round(M_PI);
+    print$round;
 
 
     ?>
