@@ -6,6 +6,7 @@
 <body>
 <p>
     <?php
+    $hernamen= "emilly";
 
     strpos("emily", "e");   // 0
 
