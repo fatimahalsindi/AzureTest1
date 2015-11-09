@@ -6,6 +6,7 @@
 <body>
 <p>
     <?php
+    $myname = "David";
     $uppercase = strtoupper($myname);
     print$uppercase;
     // prints "DAVID"
