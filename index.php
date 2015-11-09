@@ -8,7 +8,7 @@
     <?php
     $hernamen= "emilly";
 
-    strpos("emily", "e");   // 0
+    strpos($hername, "e");   // 0
 
 
     ?>
