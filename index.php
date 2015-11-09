@@ -6,14 +6,13 @@
 <body>
 <p>
     <?php
-    $myname = "David";
+    $uppercase = strtoupper($myname);
+    print$uppercase;
+    // prints "DAVID"
 
-    // you can manipulate strings easily
-    // with built-in funtions too
-    $partial = substr($myname, 0, 3);
-    print$partial;
-    // prints "dav"
-
+    $lowercase = strtolower($uppercase);
+    print$lowercase;
+    // prints "david"
 
 
     ?>
