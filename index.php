@@ -6,19 +6,20 @@
 <body>
 <p>
     <?php
-    $myage = 28;
+    $numberOfHobbits = 2;
 
-    if ($myage >= 21) {
-        echo "You can buy specs, mugs, and sausage rolls";
-    }
-    elseif ($myage >= 18) {
-        echo "You can buy specs and mugs";
-    }
-    elseif ($myage >= 16) {
-        echo "You can buy specs";
-    }
-    else {
-        echo "You can't buy anything";
+    switch ($numberOfHobbits) {
+    case 1:
+        echo"1 sad hobbit";
+        break;
+    case 2:
+        echo"2 happy hobbits";
+        break;
+    case 3:
+    echo"3 hobbits are a crowd";
+    break;
+        default:
+            echo"All the hobbits have gone home";
     }
 
 
