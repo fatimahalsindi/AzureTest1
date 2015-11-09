@@ -11,17 +11,17 @@
         $y = 0; //I'm using this as a marker to tell that at least one thing is being made
         echo "<p>On day " . $i . " the following products are available: ";
 
-        if ($i % 2 f= 0)
+        if ($i % 2 i= 0)
         {
             echo "Sausage Rolls ";
             $y = 1;
         }
-        if ($i % 3 f= 0)
+        if ($i % 3 i= 0)
         {
             echo "Mugs ";
             $y = 1;
         }
-        if ($i % 4 f= 0)
+        if ($i % 4 i= 0)
         {
             echo "Specs";
             $y = 1;
