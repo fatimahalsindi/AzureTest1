@@ -8,7 +8,7 @@
     <?php
    $myArray = array("specs", "mugs", "sausage rolls");
 
-    print $myArray;
+    printmyArray();
 
     $myArray [1] = "hugs"; // modifies position 1 (re)
 
@@ -17,7 +17,12 @@
     unset($array [2]); // removes the array in position 2
 
     print $myArray;
-
+    function printmyArray()
+    {
+        foreach($myArray as $x) {
+            echo "<p>" . $x . "</p>";
+        }
+    }
 
 
     ?>
