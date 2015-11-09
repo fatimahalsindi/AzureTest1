@@ -6,10 +6,15 @@
 <body>
 <p>
     <?php
-// get the length of a string and
-// print it to the screen
-$length = strlen("david");
-print$length;
+    $myname = "David";
+
+    // you can manipulate strings easily
+    // with built-in funtions too
+    $partial = substr($myname, 0, 3);
+    print$partial;
+    // prints "dav"
+
+
 
     ?>
 </p>
