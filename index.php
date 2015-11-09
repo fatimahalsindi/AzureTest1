@@ -14,7 +14,7 @@
 
     printmyArray($myArray);
 
-    unset($array [2]); // removes the array in position 2
+    unset($myArray [2]); // removes the array in position 2
 
     printmyArray($myArray);
 
