@@ -7,9 +7,12 @@
 <p>
     <?php
 
-    $hername= "emilly";
+
+    $hernamen= "emilly";
 
     strpos("$hername", "e");   // 0
+
+
 
 
 
