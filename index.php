@@ -7,10 +7,7 @@
 <p>
     <?php
 
-
-    $hernamen= "emilly";
-
-    strpos("$hername", "e");   // 0
+    echo "Hello World";
 
 
 
